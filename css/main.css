@@ -1,0 +1,26 @@
+html {
+  font-family: "Open Sans", sans-serif;
+  background-color: #f2f2f2;
+}
+
+form {
+  background-color: white;
+}
+
+.btn {
+  background-color: #000;
+  color: #fff;
+  border: none;
+}
+
+.head {
+  border-bottom: solid 1px #000;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .padding-right {
+    padding-right: .2em;
+  }
+
+}
