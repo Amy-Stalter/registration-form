@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Contact form</title>
+  <link href="css/grid.css" rel="stylesheet">
+  <link href="css/modules.css" rel="stylesheet">
+  <link href="css/type.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+
+  <section class="contact pad-t-2 bad-b-2">
+      <div class="max-length">
+        <h1>Want to go to Mars?</h1>
+        <p>We're looking for super-awesome human beings who want to make the long trek to mars for the adventure of a lifetime </p>
+
+      <fieldset>
+        <legend>Personal details</legend>
+      </fieldset>
+
+        <form class="push-0" method="POST" action="https://formspree.io/stal0048@algonquinlive.com">
+          <div class="push">
+            <label for="name">Name</label>
+            <input id="name" name="name" required>
+          </div>
+
+          <div class="push">
+            <label for="age">Age</label>
+            <input id="number" name="age" required>
+          </div>
+
+          <div class="push">
+            <label for="email">Your email</label>
+            <input id="email" type="email" placeholder="me@me.com" name="email" required>
+          </div>
+
+          <div class="push">
+            <label for="subject">Physical Fitness</label>
+            <select id="subject" name="_subject">
+              <option>Super-human</option>
+              <option>Fit as a fiddle</option>
+              <option>Not terribly strong</option>
+              <option>A little couch-potato-y</option>
+            </select>
+          </div>
+
+          <div class="push">
+            <label for="text">Address</label>
+            <input id="text" name="address">
+          </div>
+
+          <fieldset>
+            <legend>Mission statement</legend>
+          </fieldset>
+
+          <div class="push">
+          <label for="details">Why do you want to go to Mars?</label>
+          <textarea id="details" name="message" required></textarea>
+        </div>
+
+          <div>
+            <button class="btn btn-light mega" type="submit">Register for the trip</button>
+          </div>
+
+        </form>
+      </div>
+    </section>
+
+</body>
+</html>
